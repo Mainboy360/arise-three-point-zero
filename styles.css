@@ -1,6 +1,8 @@
 
 
 * {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -56,7 +58,6 @@ body {
   border-radius: 10px;
 }
 
-
 .left-right-nav-two {
    display: flex;
    justify-content: space-around;
@@ -74,10 +75,6 @@ body {
   margin-top: 100px;
 }
 
-img[src^="arise"] {
-  width: 10px;
-  height: 100%;
-}
 
 .photo-gallery {
    display: flex;
@@ -100,4 +97,17 @@ img[src^="arise"] {
 
 a:link {
   text-decoration: none;
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  padding: 20px;
+}
+
+img[src$="svg"] {
+  width: 80px;
+  height: 100%;
 }
